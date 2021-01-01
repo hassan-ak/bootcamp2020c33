@@ -10,6 +10,8 @@ export default () => {
                 <Header text="This is a heading" subtext="The is the sub heading"></Header>
                 <p>This is my home page</p>
                 <Link to="/my-dynamic-page/">Dynamically Created Page At Build Time</Link>
+                <br/>
+                <Link to="/app/page1/">Go to Client Page 1</Link>
             </Layout>
         </div>
     );
