@@ -11,6 +11,8 @@ export default function home() {
         <p>This is my home page</p>
         <p>Click <Link to="/desc/">here</Link> for component scoped css</p>
         <Link to="/my-dynamic-page/">Dynamically Created Page At Build Time</Link>
+        <br/>
+        <Link to="/app/page1/">Go to Client Page 1</Link>
       </Layout>
     </div>
   )
