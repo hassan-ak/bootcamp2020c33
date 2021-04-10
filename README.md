@@ -45,3 +45,9 @@ External Links
 - [Material UI Plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-material-ui/)
 - [Official Gatsby Example](https://github.com/mui-org/material-ui/tree/master/examples/gatsby)
 - [Material UI Buttom Documentation](https://material-ui.com/components/buttons/)
+
+## Online Lectures
+- [Link1](https://www.youtube.com/watch?v=21dnsmxRRYM&ab_channel=PanacloudServerlessSaaSTraining)
+- [Link2](https://www.facebook.com/zeeshanhanif/videos/10224601577451761/)
+- [Link3](https://www.youtube.com/watch?v=rdcqnWJK2Mk&ab_channel=PanacloudServerlessSaaSTraininginUrdu)
+- [Link4](https://www.facebook.com/zeeshanhanif/videos/10224605671834118)
