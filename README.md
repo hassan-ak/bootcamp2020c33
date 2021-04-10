@@ -34,3 +34,14 @@ Exteranl Links
 
 External Links
 - [Understanding client-only routes](https://www.gatsbyjs.com/docs/how-to/routing/client-only-routes-and-user-authentication/#understanding-client-only-routes)
+
+## Step08 Material UI
+- Steps
+  - npm install gatsby-plugin-material-ui @material-ui/core @material-ui/styles mdi-material-ui --save
+  - add material UI Button component in index.tsx page
+  - gatsby develop
+
+External Links
+- [Material UI Plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-material-ui/)
+- [Official Gatsby Example](https://github.com/mui-org/material-ui/tree/master/examples/gatsby)
+- [Material UI Buttom Documentation](https://material-ui.com/components/buttons/)
