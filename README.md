@@ -8,6 +8,7 @@
 - You can now view the dynamically created component page in the browser. ⠀ http://localhost:8000/my-dynamic-page
 - Note that this dynamic page is created at build time just like the pages that are in the pages directory are created at build time.
 - Also note that build time is not run in the browser but on your machine using Node.js on your machine and we build static pages at build time.
+
 Exteranl Links
 - [Where Does Logic Go on Jamstack Sites?](https://css-tricks.com/where-does-logic-go-on-jamstack-sites/)
 - [Build time vs runtime](https://www.gatsbyjs.com/docs/conceptual/overview-of-the-gatsby-build-process/#build-time-vs-runtime)
@@ -22,8 +23,14 @@ Exteranl Links
   - Add a link to the my-dynamic-page page in the index.tsx page
   - gatsby develop
 
+## Step07 Client Only Routes
+- In this step we added a client-only route to our Gatsby application. It will have no static HTML assets generated for it, and will only ever be rendered client-side.
+- For some pages, none of the page needs to be server rendered, as all data will be loaded live from your API. For example, a user account page that displays a user's personal profile and data. It's only accessible to the user, and the content is completely dynamic. Another example is the checkout funnel of an e-commerce application; the contents of your cart and all of the payment-related pages are completely dynamic and unique for each use.
+- Steps
+  - Create Client1.tsx and DefaultClient.tsx components
+  - Create app.tsx page
+  - create gatsby-note.js
+  - gatsby develop 
 
-
-
-
-
+External Links
+- [Understanding client-only routes](https://www.gatsbyjs.com/docs/how-to/routing/client-only-routes-and-user-authentication/#understanding-client-only-routes)
